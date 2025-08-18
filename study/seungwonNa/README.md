@@ -5,6 +5,8 @@
   - 날씨 문답 + 다운받은 음악 재생 및 정지(이어서 틀기 불가능)
 - whisper_total_01.py
   - weather + music + face_emotion_recognition
+- whisper_total_01_kitten.py
+  - total_01 코드에서 tts 모델 GTTS에서 Kitten으로 변경
 
 ## Check Performance in Rqt
 - check_performance 폴더 코드 각 터미널에서 실행 + rqt 실행
