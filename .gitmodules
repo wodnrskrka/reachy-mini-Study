@@ -1,0 +1,8 @@
+[submodule "reachy_mini"]
+	path = reachy_mini
+	url = https://github.com/orocapangyo/reachy_mini.git
+	branch = develop
+[submodule "reachy_mini_stl_convexify"]
+	path = reachy_mini_stl_convexify
+	url = https://github.com/orocapangyo/reachy_mini_stl_convexify.git
+	branch = main

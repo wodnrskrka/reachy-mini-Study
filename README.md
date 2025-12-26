@@ -11,6 +11,37 @@ reachy-mini는 소형 로봇 플랫폼 또는 소프트웨어 프로젝트로, �
 - 다양한 로봇 동작 예제 제공
 - 시뮬레이션 및 실제 하드웨어 연동 지원(필요시)
 
+## 서브모듈
+
+이 프로젝트는 Git Submodule을 사용하여 외부 저장소를 포함하고 있습니다.
+
+### reachy_mini
+
+- **경로**: `reachy_mini/`
+- **브랜치**: `develop`
+- **저장소**: https://github.com/orocapangyo/reachy_mini.git
+- **목적**: Reachy Mini 로봇의 공식 Python SDK 및 시뮬레이션 프레임워크 (개발 버전)
+
+### reachy_mini_stl_convexify
+
+- **경로**: `reachy_mini_stl_convexify/`
+- **브랜치**: `main`
+- **저장소**: https://github.com/orocapangyo/reachy_mini_stl_convexify.git
+- **목적**: Reachy Mini 로봇의 STL 파일을 convex hull로 변환하여 물리 시뮬레이션 성능 최적화
+
+### 서브모듈 사용 방법
+
+```bash
+# 처음 클론할 때
+git clone --recurse-submodules https://github.com/orocapangyo/reachy-mini.git
+
+# 이미 클론한 경우 서브모듈 초기화
+git submodule update --init --recursive
+
+# 서브모듈 업데이트
+git submodule update --remote
+```
+
 ## 관련 영상
 
 [![reachy-mini 소개 영상](https://img.youtube.com/vi/JvdBJZ-qR18/0.jpg)](https://youtu.be/JvdBJZ-qR18?si=qhe4JHv3QVOF-5la)
